@@ -1,0 +1,4 @@
+enum WordStatus {
+  unknown,
+  known,
+}

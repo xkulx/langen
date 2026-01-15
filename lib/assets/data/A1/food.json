@@ -1,0 +1,20 @@
+[
+  {
+    "id": "apple",
+    "en": "apple",
+    "ru": ["яблоко"],
+    "examples": [
+      "I eat an apple every day.",
+      "This apple is very sweet."
+    ]
+  },
+  {
+    "id": "bread",
+    "en": "bread",
+    "ru": ["хлеб"],
+    "examples": [
+      "She bought fresh bread.",
+      "Bread is a basic food."
+    ]
+  }
+]
