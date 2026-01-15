@@ -15,10 +15,18 @@
 
     <title>langen</title>
 
-    <!-- Telegram WebApp SDK -->
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
 <script src="flutter_bootstrap.js" defer></script>
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(regs => {
+        for (let reg of regs) {
+          reg.unregister();
+        }
+      });
+    }
+</script>
 </body>
 </html>
